@@ -1,0 +1,43 @@
+{
+  "name": "cryptodoggies-token-game",
+  "version": "1.0.0",
+  "description": "Smart Contract Deployment.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test",
+    "deploy": "truffle deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarMWarraich/CryptoDoggies-Token-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarMWarraich/CryptoDoggies-Token-game/issues"
+  },
+  "homepage": "https://github.com/OmarMWarraich/CryptoDoggies-Token-game#readme",
+  "devDependencies": {
+    "@solidity-parser/parser": "^0.14.5",
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "bignumber.js": "^9.1.1",
+    "dotenv": "^16.0.3",
+    "ethereumjs-util": "^7.1.5",
+    "ganache-cli": "^6.12.2",
+    "lite-server": "^2.6.1",
+    "solc": "^0.8.17",
+    "truffle": "^5.7.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "jsonfile": "^6.1.0",
+    "web3": "^1.8.1"
+  }
+}

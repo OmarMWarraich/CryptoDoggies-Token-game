@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "compile": "truffle compile",
-    "migrate": "truffle migrate",
+    "compile": "truffle compile --network dashboard",
+    "migrate": "truffle migrate --network dashboard",
     "test": "truffle test",
     "deploy": "truffle deploy"
   },
